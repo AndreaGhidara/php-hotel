@@ -78,7 +78,7 @@ if ($filterActive) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=ù, initial-scale=1.0">
-    <title>Php Hotel</title>
+    <title>PHP Hotel</title>
     <!-- add Bootstrap -->
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ' crossorigin='anonymous'>
 
@@ -95,7 +95,7 @@ if ($filterActive) {
                 <div class="col d-flex align-items-center">
                     <p class="fw-bold pe-2 m-0">Filters :</p>
                     <!-- Creazione Form per invio dati -->
-                    <form action="hotel.php" method="get" class="d-flex">
+                    <form action="index.php" method="get" class="d-flex">
                         <!-- Creazione Select per il vote -->
                         <div class="d-flex align-items-center pe-3 border-end">
                             <label for="starsRank" class="pe-2">
