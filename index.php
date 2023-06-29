@@ -97,7 +97,7 @@ if ($filterActive) {
                     <!-- Creazione Form per invio dati -->
                     <form action="index.php" method="get" class="d-flex">
                         <!-- Creazione Select per il vote -->
-                        <div class="d-flex align-items-center pe-3 border-end">
+                        <div class="d-flex align-items-center pe-3 border-end border-white">
                             <label for="starsRank" class="pe-2">
                                 Stars
                             </label>
@@ -114,7 +114,7 @@ if ($filterActive) {
                             </select>
                         </div>
                         <!-- Creazione CheckBox per Parking -->
-                        <div class="form-check d-flex align-items-center">
+                        <div class="form-check d-flex align-items-center pe-3 border-end border-white">
 
                             <label class="form-check-label pe-5" for="parking">
                                 Parking
